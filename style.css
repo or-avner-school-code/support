@@ -11,6 +11,7 @@
 	border: 1px solid #cecece;
 	background: #F6F6f6;
 	border-radius: 8px;
+	background-color: transparent;
 }
 textarea {
 	/* = Убираем скролл */
@@ -26,6 +27,7 @@ textarea {
 	border: 1px solid #cecece;
 	border-radius: 8px 0 0 0;
 	padding: 8px 0 8px 10px;
+	background-color: transparent;
 }
 .submit {
     
@@ -47,7 +49,6 @@ textarea {
 	margin-bottom: -1px;
 	zoom: 1;
 }
-.submit:focus
-{
+.submit:focus {
 	outline:none;
 } 
