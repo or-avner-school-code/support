@@ -29,26 +29,19 @@ textarea {
 	padding: 8px 0 8px 10px;
 	background-color: transparent;
 }
-.submit {
-    
-    bottom: 330px;
-    left: 109px;
-	cursor: pointer;
-	border: 1px solid #cecece;
-	background: #f6f6f6;
-	box-shadow: inset 0px 20px 20px #ffffff;
-	border-radius: 8px;
-	padding: 8px 14px;
-	width: 120px;
-}
-.submit:hover {
-	box-shadow: inset 0px -20px 20px #ffffff;
-}
-.submit:active {
-	margin-top: 1px;
-	margin-bottom: -1px;
-	zoom: 1;
-}
-.submit:focus {
-	outline:none;
+a.submit {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
 } 
+a.submit:hover { 
+	background: rgb(53, 167, 110); 
+}
+a.submit:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
