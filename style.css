@@ -2,7 +2,7 @@
  border: 4px dotted black; /* Параметры границы */
  background: white; /* Цвет фона */
  padding: 10px; /* Поля вокруг текста */
- height: 400px;
+ height: 350px;
  width: 250px;
  input {
 	width: 300px;
