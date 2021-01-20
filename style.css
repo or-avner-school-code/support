@@ -2,7 +2,7 @@
  border: 4px dotted black; /* Параметры границы */
  background: white; /* Цвет фона */
  padding: 10px; /* Поля вокруг текста */
- height: 350px;
+ height: 300px;
  width: 250px;
  .information {
 	width: 300px;
