@@ -7,43 +7,24 @@
 <meta lang="ru">
 </head>
 <body>
+<div class="container">
 <form class="support" action="https://formspree.io/f/xdopbndr" method="post">
  <h3 style="font-family: Arial Black;"> Форма жалоб и предложений </h3>
- <label>
+	<div class="information">
     <input type="text" name="name" required placeholder="Ваше имя">
-  </label>
-  <label>
+	</div>
+	<div class="information">
     <input type="text" name="firstname" required placeholder="Ваша фамилия"
-  </label>
-      <label>
+	   </div>
+		<div class="information">
        <input type="text" name="classroom" required placeholder="В каком вы классе ?"
-      </label>
-    <label>
+	      </div>
+			<div class="information">
       <input type="text" name="tel" required placeholder="Ваш номер телефона"
-    </label>
-  <label>
+	     </div>
     <textarea name="message" required placeholder="Текст жалобы или предложения"></textarea>
-  </label>
-     <a class="submit"><input class="submit" type="submit"></a>
-     <style>
-      submit {
-  font-weight: 700;
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: .8em 1em calc(.8em + 3px);
-  border-radius: 3px;
-  box-shadow: 0 -3px rgb(53,167,110) inset;
-  transition: 0.2s;
-} 
-submit:hover { 
-	background: rgb(53, 167, 110); 
-}
-submit:active {
-  background: rgb(33,147,90);
-  box-shadow: 0 3px rgb(33,147,90) inset;
-}
-    </style>
+     <button type="submit" class="submit" name="submitbtn" value="subm">Отправить</button>
+</div>
 </form>
 </body>
 </html>
